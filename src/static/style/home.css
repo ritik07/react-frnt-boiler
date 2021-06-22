@@ -1,0 +1,59 @@
+/* slider */
+
+.cs-slider-caption{
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.cs-slider-style-caption{
+    z-index: 7;
+    font-style: italic;
+    height: auto;
+    width: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: inherit;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 140px;
+    transform-origin: 50% 50%;
+    transform: translate(0px, 0px);
+    opacity: 1;
+    visibility: visible;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+.cs-get-ticket{
+    background: #000;
+}
+
+.cs-ticket-contact-us-btn{
+    padding: 10px 20px;
+    background: #b49761;
+    width: 140px;
+}
+
+.cs-welcome-desc{
+    padding: 20px 350px;
+}
+
+.cs-yt-btn{
+    background: rgb(221, 44, 44);
+    color: #ffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 80%;
+}

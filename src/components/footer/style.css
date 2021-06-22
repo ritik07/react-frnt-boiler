@@ -1,0 +1,14 @@
+.footer-ul {
+  list-style: none;
+}
+
+.footer-li {
+  color: grey;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.footer-li:hover{
+  color: var(--primary-dark);
+}

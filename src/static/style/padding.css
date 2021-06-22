@@ -1,0 +1,79 @@
+.cs-p-5{
+    padding: 5px;
+}
+
+.cs-p-10{
+    padding: 10px;
+}
+
+.cs-p-15{
+    padding: 15px;
+}
+
+.cs-p-20{
+    padding: 20px;
+}
+
+.cs-tp-10{
+    padding-top: 10px;
+}
+
+.cs-tp-20{
+    padding-top: 20px;
+}
+
+.cs-tp-30{
+    padding-top: 30px;
+}
+
+.cs-tp-40{
+    padding-top: 40px;
+}
+
+.cs-tp-80{
+    padding-top: 80px;
+}
+
+.cs-tp-100{
+    padding-top: 100px;
+}
+
+.cs-bp-10{
+    padding-bottom: 10px;
+}
+
+.cs-bp-20{
+    padding-bottom: 20px;
+}
+
+.cs-bp-30{
+    padding-bottom: 30px;
+}
+
+.cs-bp-40{
+    padding-bottom: 40px;
+}
+
+.cs-bp-80{
+    padding-bottom: 80px;
+}
+
+.cs-bp-100{
+    padding-bottom: 100px;
+}
+
+.cs-rp-5{
+    padding-right: 5px;
+}
+
+.cs-rp-10{
+    padding-right: 10px;
+}
+
+.cs-lp-5{
+    padding-right: 5px;
+}
+
+.cs-lp-10{
+    padding-right: 10px;
+}

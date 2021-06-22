@@ -1,0 +1,75 @@
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .cs-not-for-mobile{
+    display: none !important;
+  }
+  .cs-center-vertical-mobile{
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+  .cs-get-ticket-container{
+    padding: 20px 20px;
+  }
+  .cs-web-container{
+    padding: 0px 15px;
+  }
+  .cs-xs-bp-20{
+    padding-bottom: 20px;
+  }
+  .cs-only-for-mobile{
+    display: flex !important ;
+  }
+  .cs-mobile-logo{
+    float: right;
+    margin-top: 12px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .cs-not-for-mobile{
+    display: none !important;
+  }
+  .cs-only-for-mobile{
+    display: flex !important ;
+  }
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+  .cs-not-for-mobile{
+    display: none !important;
+  }
+  .cs-only-for-mobile{
+    display: flex !important ;
+  }
+}
+
+/* No greater than 992px, no less than 1200px */
+@media screen and (min-width:992px) and (max-width:1200px){
+  .cs-not-for-mobile{
+    display: none !important;
+  }
+  .cs-only-for-mobile{
+    display: flex !important ;
+  }
+}
+
+.cs-not-for-mobile{
+  display: content !important;
+}
+.cs-only-for-mobile{
+  display: none;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

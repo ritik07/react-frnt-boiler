@@ -1,0 +1,143 @@
+/* color */
+.bg-clr-danger{
+    background-color: #f66359;
+}
+
+.bg-clr-warning{
+    background-color: #e16123;
+}
+
+.bg-clr-success{
+    background-color: #6bbd6e;
+}
+
+.txt-clr-label{
+    color:#5b616e;
+}
+
+.txt-clr-white{
+    color: #fff;
+}
+
+.user-wlcm-bg-clr{
+    background-color: #009378;
+}
+
+.user-wlcm-clr{
+    color: #009378;
+}
+
+.card-heading-1{
+    color: #e16123;
+}
+
+p{
+    font-style: 16px;
+    margin-bottom: 0px;
+}
+
+.txt-underline{
+    text-decoration:underline;
+    text-decoration-color: #e16123;
+}
+
+.clr-warning{
+    color: #e16123;
+}
+
+.clr-success{
+    color: #75ca78;
+}
+
+.clr-side-menu{
+    color:#3e4243;
+}
+
+.clr-danger{
+    color: #f66359;
+}
+
+.clr-blue{
+    color: #288fee;
+}
+
+.clr-primary{
+    color: #288fee;
+}
+
+.bg-clr-blue{
+    color: #f66359;
+}
+
+.flex-center{
+display: flex;
+justify-items: center;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+
+.center{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    }
+
+.d-flex{
+    display: flex;
+}
+
+.txt-clr-blue{
+    color:#2bb3c0;
+}
+
+/* FONTS */
+.font-size-m{
+    font-size: 20px;
+}
+
+.f-20{
+    font-size: 20px;
+}
+
+.f-18{
+    font-size: 18px;
+}
+
+.f-16{
+    font-size: 16px;
+}
+
+.f-15{
+    font-size: 15px;
+}
+
+.font-size-s{
+    font-size: 14px;
+}
+
+.letter-spc-3{
+letter-spacing: 3;
+}
+
+.stylish-label{
+    font-size: 12;
+    font-weight: 600;
+}
+
+.mb-em{
+margin-bottom: 1em;
+}
+
+.mb-2em{
+    margin-bottom: 2em;
+}
+    
+/* ANTD CSS DESIGN */
+.ant-table table { font-size: 16px; }
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected.sidebar-menu-bg{
+    background-color: #232929;
+}

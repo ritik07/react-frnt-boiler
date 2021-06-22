@@ -1,0 +1,137 @@
+.app-static-wrapper {
+  width: 100%;
+  position: relative;
+  min-height: 100%;
+  text-align: center;
+  background-color: white;
+}
+.app-static-logo {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#login-form {
+  margin: 0 auto;
+  max-width: 350px;
+}
+.app-form-full {
+  margin: 12px 0;
+  width: 100%;
+}
+.app-form-label {
+  color: inherit;
+  font-family: "Acre", Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 0.84615385rem;
+  line-height: 1.73;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 3px;
+  text-align: left;
+}
+
+.app-form input[type="text"],
+.app-form-full input[type="text"],
+.app-form-half input[type="text"],
+.app-form input[type="password"],
+.app-form-full input[type="password"],
+.app-form-half input[type="password"],
+.app-form input[type="number"],
+.app-form-full input[type="number"],
+.app-form-half input[type="number"],
+.app-form input[type="email"],
+.app-form-full input[type="email"],
+.app-form-half input[type="email"],
+.app-form input[type="date"],
+.app-form-full input[type="date"],
+.app-form-half input[type="date"] {
+  color: inherit;
+  font-family: "Acre", Helvetica, sans-serif;
+  font-size: 0.92307692rem;
+  line-height: 1.73;
+  letter-spacing: 1px;
+  color: #2c3144;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: white;
+  border: 1px solid #dfe0e4;
+  border-radius: 0;
+  box-sizing: border-box;
+  box-shadow: none;
+  height: 42px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+a,
+.app-cta-link,
+button.app-cta-link {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: #426fca;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+}
+
+.app-cta-btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: #2c3144;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.app-cta-btn.primary,
+.app-cta-btn.secondary,
+.app-cta-btn.tertiary,
+.app-cta-btn.septenary,
+.app-cta-btn.warning,
+.app-cta-btn.warning-inverted {
+  color: inherit;
+  font-family: "Acre", Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 0.92307692rem;
+  line-height: 1.67;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-height: 42px;
+  padding: 11px 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 540px;
+}
+.app-cta-btn.primary {
+  background: #374646;
+  color: white;
+}
+
+.app-cta-btn.secondary {
+  background: transparent;
+  border: 1px solid #374646;
+  color: #374646;
+  padding: 10px 18px;
+}
+
+@media only screen and (min-width: 768px) {
+  .app-static-wrapper {
+    padding: 150px 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .app-static-wrapper {
+    padding: 80px 0;
+  }
+}

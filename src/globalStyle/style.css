@@ -1,0 +1,269 @@
+@import url('./constants.css');
+@import url(./margin.css);
+@import url(./padding.css);
+@import url(./size.css);
+@import url('./antOveride.css');
+@import url('./button.css');
+@import url(./font.css);
+/* ==============================================  Content  =====================================================*/
+
+/* 1. Wrapper & Back */
+/* 2. Line */
+/*  3. Display */
+/* 4. Border Radius */
+/* 5. Colour */
+/* 6. Icon */
+/* 7. Scroll */
+/* 8. Network Card */
+/* 9. Anime */
+/* 10. others */
+
+/* ==============================================  Wrapper & back  =====================================================*/
+
+
+.wrapper{
+    background-color: white;
+    padding: 1em;
+}
+
+.wrapper-grey {
+    background-color: var(--grey);
+    padding: 1em;
+    border: none;
+}
+
+.wrapper::-webkit-scrollbar , .wrapper-grey::-webkit-scrollbar{
+    display: none;
+}
+
+.grey-back {
+    background-color: var(--grey);
+}
+
+.main-wrapper{
+    padding: 30px 90px 30px 90px;
+}
+
+/* ==============================================  Line  =====================================================*/
+
+.line {
+    width: 100%;
+    border-radius: 5px;
+    height: 1px;
+    background-color: var(--primary-light);
+}
+
+.vr-line-after{
+    margin-right: 10px;
+}
+
+.vr-line-after::after{
+    position: absolute;
+    content: '';
+    background-color: var(--primary-light);
+    width: 1px;
+    height: 100%;
+    left: 120%;
+}
+
+.dash-yellow-line{
+    width: 100%;
+    height: 2px;
+    border-top: 4px dashed var(--orange);
+    margin-top: 14px;
+}
+
+/* ==============================================  Display  =====================================================*/
+
+
+.d{
+    display: flex;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-se {
+    justify-content: space-evenly;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.jc-fe {
+    justify-content: flex-end;
+}
+
+.jc-fs {
+    justify-content: flex-start;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ai-start {
+    align-items: start;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+ /* ==============================================  Border Radius  =====================================================*/
+
+
+.br-1{
+    border-radius: 1em;
+}
+
+.br-point5{
+    border-radius: .5em;
+}
+
+
+ /* ==============================================  Colour  =====================================================*/
+
+
+.color-grey {
+    background-color: var(--grey);
+    box-shadow: var(--grey);
+}
+
+.color-red {
+    background-color: var(--primary) !important;
+}
+
+.text-red {
+    color: var(--primary) !important;
+}
+
+.text-green{
+    color: var(--green) !important;
+}
+
+ /* ==============================================  Icons  =====================================================*/
+
+.icon-wrapper{
+    font-size: 14px;
+    background-color: white;
+    padding: .5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon-wrapper-yellow{
+    font-size: 14px;
+    background-color: rgb(245, 214, 39);
+    color: white !important;
+    padding: .5em !important;
+    border-radius: 1em;
+    cursor: pointer;
+    margin-top: 15px !important;
+}
+
+.icon-wrapper-modal{
+    color: white;
+    padding: .4em;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.icon-wrapper-modal:hover{
+    background-color: white;
+    color: var(--dark-primary);
+}
+ /* ==============================================  Scroll  =====================================================*/
+
+
+.scroll{
+    margin-right: 10px;
+    overflow: hidden;   
+}
+
+.scroll-400{
+    margin-right: 10px;
+    max-height: 400px;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.scroll-400:hover , .scroll:hover{
+    margin-right: 0px;
+    overflow-y: auto;
+}
+
+ /* ==============================================  Network Card  =====================================================*/
+
+
+.network-card {
+    border: none !important;
+    font-size: 13px;
+}
+
+.removed-network-card {
+    opacity: .5 ;
+}
+
+.network-card .ant-card-body{
+    background-color: var(--grey);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.network-card .ant-card-head {
+    background-color: var(--primary-light);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+ /* ==============================================  Animate  =====================================================*/
+
+.anime-down {
+    transform: scaleY(0);    
+    transform-origin: top;
+    transition: transform 0.15s ease;
+}
+
+.anime-down-full {
+    transform: scaleY(1);
+}
+
+
+.dull-7 {
+    opacity: .7;
+}
+
+ /* ==============================================  Other  =====================================================*/
+
+.upload-input {
+    padding: 8px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 2px;
+    background-color: var(--blue) !important;
+    color: white !important;
+}
+
+.no-border-grey{
+    background-color: var(--grey) !important;
+    border: 0 !important;
+    box-shadow: none !important
+}
+

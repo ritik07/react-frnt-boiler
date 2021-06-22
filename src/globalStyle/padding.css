@@ -1,0 +1,23 @@
+.p-point5{
+    padding: .5em ;
+}
+
+.p-1{
+    padding: 1em;
+}
+
+.p-2{
+    padding: 2em !important;
+}
+
+.pl-2{
+    padding-left: 2em;
+}
+
+.pr-2{
+    padding-right: 2em;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}

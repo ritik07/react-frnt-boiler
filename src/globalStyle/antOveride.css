@@ -1,0 +1,51 @@
+.ant-popover-placement-bottom, .ant-popover-placement-bottomLeft, .ant-popover-placement-bottomRight{
+    padding-top: 0px !important;
+}
+
+.ant-popover-inner-content{
+    box-shadow: none;
+    padding: 0;
+}
+
+.ant-popover-inner{
+    box-shadow: none;
+}
+.ant-popover-arrow{
+    display: none !important;
+}
+
+.ant-layout-content{
+    background-color: white;
+}
+/* .no-style, .no-style:hover, .no-style:focus{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-shadow: none;
+} */
+
+
+.ant-modal-body{
+    padding: 0 !important;
+}
+
+.ant-form-item{
+    flex-direction: column;
+    align-items: start;
+}
+
+.ant-input-number{
+    width: 100%;
+}
+
+.ant-menu-vertical .ant-menu-item, .ant-menu-vertical-left .ant-menu-item, .ant-menu-vertical-right .ant-menu-item, .ant-menu-inline .ant-menu-item, .ant-menu-vertical .ant-menu-submenu-title, .ant-menu-vertical-left .ant-menu-submenu-title, .ant-menu-vertical-right .ant-menu-submenu-title, .ant-menu-inline .ant-menu-submenu-title{
+    margin: 0;
+}
+@media (max-width: 767px){
+    .ant-modal {
+        max-width: calc(100vw - 30px);
+        /* margin: 8px auto; */
+    }
+}
