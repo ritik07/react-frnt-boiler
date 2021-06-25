@@ -1,4 +1,4 @@
-import { BulbOutlined, FileOutlined, HeartOutlined, HomeOutlined, MenuOutlined, SettingOutlined, UserOutlined } from "@ant-design/icons";
+import { BulbOutlined, FileOutlined, HeartOutlined, HomeOutlined, MenuOutlined, SettingOutlined, UserOutlined, MobileOutlined } from "@ant-design/icons";
 
 export const menuLayoutA = [
 	{
@@ -9,47 +9,18 @@ export const menuLayoutA = [
 		icon: <HomeOutlined />
 	},
 	{
-		title: "Quote",
+		title: "Get Second Consultation",
 		key: 2,
-		path: '/quote',
-		type: "parent",
-		icon: <FileOutlined />,
-		children: [{
-			title: "Quote",
-			key: 3,
-			path: '/quote',
-			type: "child",
-			icon: <MenuOutlined />
-		},
-		{
-			title: "Order",
-			key: 4,
-			path: '/order',
-			type: "child",
-			icon: <SettingOutlined />
-		},
-		{
-			title: "Favourite",
-			key: 5,
-			path: '/favourite',
-			type: "child",
-			icon: <HeartOutlined />
-		}]
+		type: "root",
+		path: '/home',
+		icon: <BulbOutlined />
 	},
 	{
-		title: "Inspire",
-		key: 6,
-		type: "parent",
-		icon: <BulbOutlined />,
-		children:[
-		{
-			title: "Blog",
-			key: 7,
-			path: '/blog',
-			type: "child",
-			icon: <FileOutlined />
-		}
-		]
+		title: "Customer Care",
+		key: 3,
+		type: "root",
+		path: '/home',
+		icon: <MobileOutlined />
 	},
 	{
 		title: "Login",
@@ -66,3 +37,48 @@ export const menuLayoutA = [
 		icon: <UserOutlined />
 	}
 ];
+
+
+// {
+// 	title: "Quote",
+// 	key: 2,
+// 	path: '/quote',
+// 	type: "parent",
+// 	icon: <FileOutlined />,
+// 	children: [{
+// 		title: "Quote",
+// 		key: 3,
+// 		path: '/quote',
+// 		type: "child",
+// 		icon: <MenuOutlined />
+// 	},
+// 	{
+// 		title: "Order",
+// 		key: 4,
+// 		path: '/order',
+// 		type: "child",
+// 		icon: <SettingOutlined />
+// 	},
+// 	{
+// 		title: "Favourite",
+// 		key: 5,
+// 		path: '/favourite',
+// 		type: "child",
+// 		icon: <HeartOutlined />
+// 	}]
+// },
+// {
+// 	title: "Inspire",
+// 	key: 6,
+// 	type: "parent",
+// 	icon: <BulbOutlined />,
+// 	children:[
+// 	{
+// 		title: "Blog",
+// 		key: 7,
+// 		path: '/blog',
+// 		type: "child",
+// 		icon: <FileOutlined />
+// 	}
+// 	]
+// }

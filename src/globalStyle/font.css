@@ -1,11 +1,6 @@
 @import url('../assets//fonts//stylesheet.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
 
-*{
-    font-family: 'Inter', sans-serif !important;
-    font-weight: 300 !important;
-}
-
 h1,h2,h3,h4,h5,h6{
     font-family: 'Butler', Arial, sans-serif !important;
     font-weight: 600 !important;

@@ -35,8 +35,8 @@ export const SideMenu = props => {
 				zIndex: 999,
 				overflow: 'auto',
 				height: '100vh',
-				position: 'fixed',
-				backgroundColor: '#374646',
+				// position: 'fixed',
+				backgroundColor: '#0093788a',
 				left: 0,
 			}}
 			collapsible={true}
@@ -48,7 +48,7 @@ export const SideMenu = props => {
 			<div className="d jc-center ai-center mt-20 mb-20 ml-20 logo" >
 				<Image preview={false} id="menu-logo" width={100} src={logo} />
 			</div>
-			<Menu theme="dark" mode="inline">
+			<Menu theme="dark" mode="inline" style={{background:"#0093788a"}}>
 				{menuLayout.map(menuItem =>
 					menuItem.type !== "parent" ? getMenuItem(menuItem) :
 					<SubMenu key={menuItem.key} icon={menuItem.icon} title={menuItem.title} >

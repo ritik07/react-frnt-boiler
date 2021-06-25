@@ -1,0 +1,7 @@
+.ant-menu-title-content{
+    color: #ffff;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected.sidebar-menu-bg{
+    background-color: #01745e8a;
+}

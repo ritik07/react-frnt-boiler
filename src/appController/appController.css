@@ -23,7 +23,5 @@
 .mobile-header{
   display: flex;
   justify-content: space-between !important;
-  padding-top: 25px !important;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 12px;
 }

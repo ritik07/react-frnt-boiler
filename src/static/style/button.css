@@ -1,0 +1,112 @@
+.cs-btn-login{
+    border: #009378 solid;
+    border-width: 2px 0px 2px 2px;
+    border-radius: 6px 0px 0px 6px;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    background-color: #0093782a;
+}
+
+.cs-btn-signup{
+    border: #e96828 solid;
+    border-width: 2px;
+    border-radius: 0px 6px 6px 0px;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    background-color: #e9682831;
+}
+
+.cs-get-second-consultant{
+    background-color:#009378;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.cs-customer-care{
+    background-color:#e96828;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .cs-btn-login{
+        border: #009378 solid;
+        border-width: 2px 0px 2px 2px;
+        border-radius: 6px 0px 0px 6px;
+        justify-content: center;
+        display: flex;
+        padding: 5px;
+        background-color: #0093782a;
+    }
+    .cs-btn-signup{
+        border: #e96828 solid;
+        border-width: 2px;
+        border-radius: 0px 6px 6px 0px;
+        justify-content: center;
+        display: flex;
+        padding: 5px;
+        background-color: #e9682831;
+    }
+    .cs-get-second-consultant{
+        background-color:#009378;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    .cs-customer-care{
+        background-color:#e96828;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+  }
+  
+  /* No greater than 992px, no less than 1200px  LGGG */ 
+  @media screen and (min-width:992px) and (max-width:1200px){
+    .cs-btn-login{
+        border: #009378 solid;
+        border-width: 2px 0px 2px 2px;
+        border-radius: 6px 0px 0px 6px;
+        justify-content: center;
+        display: flex;
+        padding: 5px;
+        background-color: #0093782a;
+        font-size: 14px;
+    }
+    .cs-btn-signup{
+        border: #e96828 solid;
+        border-width: 2px;
+        border-radius: 0px 6px 6px 0px;
+        justify-content: center;
+        display: flex;
+        padding: 5px;
+        background-color: #e9682831;
+        font-size: 14px;
+    }
+    .cs-get-second-consultant{
+        background-color:#009378;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    .cs-customer-care{
+        background-color:#e96828;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+      }

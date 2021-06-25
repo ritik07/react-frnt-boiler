@@ -1,5 +1,9 @@
+.cs-mega-menu-mobile-bg{
+  background: #0093788a !important;
+}
+
 .mega-menu-wrapper {
-  background-color: #5b7070;
+  background-color: #0093788a;
   height: 40px;
 }
 
@@ -15,7 +19,7 @@
   cursor: pointer;
   padding-top: 7px;
   height: 100%;
-  color: white;
+  color: black;
   padding-left: 10px;
   padding-right: 10px;
 }

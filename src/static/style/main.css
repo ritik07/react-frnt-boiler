@@ -1,7 +1,112 @@
+@import './padding.css';
+@import './margin.css';
+@import './font.css';
+@import './color.css';
+@import './margin.css';
+@import './button.css';
+@import './antdoverright.css';
 
+div{
+  color: #000;
+}
 
+.cs-web-container{
+  margin: 0px 35px;
+}
+
+.cs-vt-center{
+  align-content:center;
+  align-items: center;
+}
+
+.cs-dis-flex{
+  display: flex;
+}
+
+.cs-hrz-center{
+  justify-content: center;
+  justify-items: center;
+}
+
+.cs-justify-sb{
+  justify-content: space-between;
+}
+
+.cs-br-5{
+  border-radius: 5px;
+}
+
+.cs-br-8{
+  border-radius: 8px;
+}
+
+.cs-br-12{
+  border-radius: 12px;
+}
+
+.cs-br-15{
+  border-radius: 15px;
+}
+
+.cs-br-18{
+  border-radius: 18px;
+}
+
+.cs-pointer{
+  cursor: pointer;
+}
+
+.cs-overflow-x-scroll{
+  overflow-x: scroll;
+}
+
+/* WEB VIEW */
+@media screen and (min-width: 768px) {
+
+  .cs-show-mobile {
+    display: none;
+  }
+
+  .cs-show-web {
+    display: block;
+  }
+
+}
+
+/* TAB VIEW */
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width:768px) and (max-width:991px){
+  .cs-show-mobile {
+    display: none;
+  }
+
+  .cs-show-web {
+    display: block;
+  }
+}
+
+ /*LG */ 
+@media screen and (min-width:992px) and (max-width:1200px){
+
+}
+
+/* MD */
+@media screen and (min-width:768px) and (max-width:992px){
+
+}
+
+@media screen and (max-width: 767px) {
+  .cs-show-mobile {
+    display: block;
+  }
+
+  .cs-show-web {
+    display: none;
+  }
+}
+ 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .cs-not-for-mobile{
     display: none !important;
   }
@@ -26,10 +131,10 @@
     float: right;
     margin-top: 12px;
   }
-}
+} */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+/* @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .cs-not-for-mobile{
     display: none !important;
   }
@@ -37,19 +142,19 @@
     display: flex !important ;
   }
 
-}
+} */
 
-@media screen and (min-width:768px) and (max-width:992px){
+/* @media screen and (min-width:768px) and (max-width:992px){
   .cs-not-for-mobile{
     display: none !important;
   }
   .cs-only-for-mobile{
     display: flex !important ;
   }
-}
+} */
 
 /* No greater than 992px, no less than 1200px */
-@media screen and (min-width:992px) and (max-width:1200px){
+/* @media screen and (min-width:992px) and (max-width:1200px){
   .cs-not-for-mobile{
     display: none !important;
   }
@@ -63,7 +168,7 @@
 }
 .cs-only-for-mobile{
   display: none;
-}
+} */
 
 /* Medium devices (landscape tablets, 768px and up) */
 /* @media only screen and (min-width: 768px) {...} */

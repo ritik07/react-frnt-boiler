@@ -70,10 +70,19 @@
     padding-right: 10px;
 }
 
+.cs-rp-20{
+    padding-right: 20px;
+}
+
+
 .cs-lp-5{
-    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .cs-lp-10{
-    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.cs-lp-20{
+    padding-left: 20px;
 }

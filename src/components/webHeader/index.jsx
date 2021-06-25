@@ -1,5 +1,6 @@
-import { BulbOutlined, FileOutlined, SearchOutlined } from "@ant-design/icons";
-import { Col, Row, Button, Input, Popover, Menu } from "antd";
+import { BulbOutlined, FileOutlined, SearchOutlined, MobileOutlined } from "@ant-design/icons";
+import { Button, Input, Popover, Menu } from "antd";
+import { Row, Col } from 'reactstrap'
 import React from "react";
 import "./style.css";
 
@@ -19,64 +20,86 @@ export const WebHeader = ({ history }) => {
 	const inspireContent = (
 		<div className="header-item-drop" >
 			<ul style={{ listStyle: 'none', textAlign: 'left', padding: 0 }}>
-				<li onClick={()=>history.push('/blog')} className="list-item">Blog</li>
+				<li onClick={() => history.push('/blog')} className="list-item">Blog</li>
 			</ul>
 		</div>
 	);
-	
+
 	const manageContent = (
 		<div className="header-item-drop" >
 			<ul style={{ listStyle: 'none', textAlign: 'left', padding: 0 }}>
-				<li onClick={()=>history.push('/quote')} className="list-item">Quote</li>
-				<li onClick={()=>history.push('/order')} className="list-item">Order</li>
-				<li onClick={()=>history.push('/favourite')} className="list-item">Favorite</li>
+				<li onClick={() => history.push('/quote')} className="list-item">Quote</li>
+				<li onClick={() => history.push('/order')} className="list-item">Order</li>
+				<li onClick={() => history.push('/favourite')} className="list-item">Favorite</li>
 			</ul>
 		</div>
 	);
 
 	return (
-		<div className="cs-not-for-mobile header-content">
-			<Row gutter={16} style={{ width: "100%", height: 80 }} justify="center">
-				<Col span={2}>
-					<div className="ai-center mt-25">Furniture Boutiq</div>
-				</Col>
-				<Col span={3}>
-					<Popover content={inspireContent} placement="bottomLeft">
-						<div className="d-flex ai-center jc-c header-item" style={{ textAlign: 'center', height: '100%' }}>
-							<BulbOutlined />
-							<p className="header-text">Inspire</p>
-						</div>
-					</Popover>
-				</Col>
-				<Col span={3}>
-					<Popover content={manageContent} placement="bottomLeft">
-						<div className="d-flex ai-center jc-c header-item" style={{ textAlign: 'center', height: '100%' }}>
-							<FileOutlined />
-							<p className="header-text">Manage</p>
-						</div>
-					</Popover>
-				</Col>
-				<Col span={12}>
-					<div className="d ai-center mt-20">
-						<Input size="large" placeholder="serach in category" allowClear={true} prefix={<SearchOutlined />} />
-						<Popover content={menu} placement="bottomLeft" trigger="click">
-							<div className="search-cat">
-								Category
+		<div className="cs-p-15 cs-not-for-mobile cs-web-container">
+			<Row className="cs-vt-center cs-dis-flex">
+				<Col xl={3} lg={3} md={3}>
+					<Row className="cs-vt-center cs-dis-flex">
+						<Col xl={4} lg={4} md={4}>
+							<div className="cs-fw-400 cs-font-18">
+								Logo
 							</div>
-						</Popover>
+						</Col>
+						<Col xl={8} lg={4} md={4}>
+							<div className="cs-fw-500 cs-font-20 cs-pointer">
+								Second Consultant
+							</div>
+						</Col>
+					</Row>
+				</Col>
+
+				<Col xl={5} lg={5} md={5}>
+					<Row>
+						<Col xl={7} lg={7} md={7}>
+							<div className="cs-get-second-consultant cs-dis-flex cs-vt-center cs-hrz-center">
+								<div className="cs-clr-fff cs-fw-500 cs-lp-10 cs-rp-10 cs-dis-flex cs-hrz-center">
+									Get Second Consultation
+								</div>
+							</div>
+						</Col>
+
+						<Col xl={5} lg={5} md={5}>
+							<div className="cs-customer-care cs-dis-flex cs-vt-center cs-hrz-center">
+								<div className="cs-rm-5 cs-dis-flex cs-vt-center">
+									<MobileOutlined className="cs-clr-fff" />
+								</div>
+								<div className="cs-clr-fff cs-fw-500">
+									Customer Care
+								</div>
+							</div>
+						</Col>
+					</Row>
+				</Col>
+
+				<Col xl={2} lg={2} md={2} className="cs-dis-flex cs-vt-center cs-hrz-center">
+					<div className="d">
+						<Input className="cs-br-18" size="large" placeholder="Search" allowClear={true} prefix={<SearchOutlined />} />
 					</div>
 				</Col>
-				<Col span={2}>
-					<div className="mt-15">
-						<Button onClick={() => { history.push('/log-in'); }} className="outline-button">LOG IN</Button>
-					</div>
-				</Col>
-				<Col span={2}>
-					<div className="mt-15">
-						<Button onClick={() => history.push('/sign-up')} className="white-button">SIGN UP</Button>
-					</div>
+
+				<Col xl={2} lg={2} md={2}>
+					<Row noGutters={true}>
+						<Col xl={6} lg={6} md={6}>
+							<div className="cs-btn-login cs-pointer">
+								<div>
+									Login
+								</div>
+							</div>
+						</Col>
+						<Col xl={6} lg={6} md={6}>
+							<div className="cs-btn-signup cs-pointer">
+								<div>
+									Sign up
+								</div>
+							</div>
+						</Col>
+					</Row>
 				</Col>
 			</Row>
-		</div>
-	);
+		</div>);
 };
