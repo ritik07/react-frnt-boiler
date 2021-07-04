@@ -8,7 +8,6 @@ import {history} from "./config/history";
 import { Login } from "./pages/login";
 import { SignUp } from "./pages/SignUp";
 import { HomePage } from "./pages/home";
-
 // import "antd/dist/antd.css";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './globalStyle/antd.css'
@@ -20,6 +19,9 @@ import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.scss'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const App = () => {
   return (

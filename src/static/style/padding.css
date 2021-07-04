@@ -14,6 +14,26 @@
     padding: 20px;
 }
 
+.cs-p-40{
+    padding: 40px;
+}
+
+.cs-p-25{
+    padding: 25px;
+}
+
+.cs-p-30{
+    padding: 30px;
+}
+
+.cs-p-40{
+    padding: 40px;
+}
+
+.cs-tp-5{
+    padding-top: 5px;
+}
+
 .cs-tp-10{
     padding-top: 10px;
 }
@@ -85,4 +105,8 @@
 
 .cs-lp-20{
     padding-left: 20px;
+}
+
+.cs-lp-40{
+    padding-left: 40px;
 }

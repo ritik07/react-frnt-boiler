@@ -1,3 +1,13 @@
+.cs-btn-notification{
+    border: #009378 solid;
+    border-width: 2px 0px 2px 2px;
+    border-radius: 6px 0px 0px 6px;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    background-color: #0093782a;
+    font-size: 20px;
+}
 .cs-btn-login{
     border: #009378 solid;
     border-width: 2px 0px 2px 2px;
@@ -6,6 +16,7 @@
     display: flex;
     padding: 5px;
     background-color: #0093782a;
+    font-size: 20px;
 }
 
 .cs-btn-signup{
@@ -16,6 +27,7 @@
     display: flex;
     padding: 5px;
     background-color: #e9682831;
+    font-size: 20px;
 }
 
 .cs-get-second-consultant{
@@ -23,15 +35,104 @@
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
-    margin-right: 10px;
+    font-size: 22px;
 }
 
 .cs-customer-care{
     background-color:#e96828;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.cs-btn-get-second-consultant-invert{
+    background-color:#fff;
+    border: #009378 2px;
+    border-style: solid;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
-    margin-right: 10px;
+    font-size: 22px;
+    color: #009378;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.cs-btn-get-second-consultant-invert:hover{
+    background-color:#009378;
+    border: #fff 2px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.cs-btn-call-invert{
+    background-color:#fff;
+    border: #57699b 2px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #57699b;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cs-btn-call-invert:hover{
+    background-color:#57699b;
+    border: #fff 2px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cs-btn-call-font-invert{
+    color: #57699b;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cs-btn-call-font-invert:hover{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cs-btn-view-more-invert{
+    padding: 5px 15px;
+    color: #e96828;
+    border: #e96828 solid 2px;
+    border-radius: 6px;    
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cs-btn-view-more-invert:hover{
+    padding: 5px 15px;
+    background-color: #e96828;
+    color: #fff;
+    border: #e96828 solid 2px;
+    border-radius: 6px;    
+    font-size: 16px;
+    font-weight: 600;
 }
 
 @media screen and (min-width:768px) and (max-width:992px){

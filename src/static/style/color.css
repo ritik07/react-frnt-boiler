@@ -2,10 +2,88 @@
     background-color:#009378;
 }
 
+.cs-bg-green-op-5{
+    background-color:#00937833;
+}
+
+.cs-bg-purple-op-1{
+    background-color: #57699b25;
+}
+
+.cs-bg-purple-op-4{
+    background-color: #57699b5b;
+}
+
 .cs-bg-orange{
     background-color: #e96828;
 }
 
+.cs-bg-orange-op-1{
+    background-color: #e968283d;
+}
+
+.cs-bg-orange-op-4{
+    background-color: #e9682860;
+}
+
+.cs-bg-green-op-4{
+    background-color:#00937860;
+}
+
+.cs-bg-brown-op-4{
+    background-color: #c5a77d69
+}
+
 .cs-clr-fff{
     color: #fff;
+}
+
+.cs-clr-888{
+    color: #888;
+}
+
+.cs-clr-666{
+    color: #666666;
+}
+
+.cs-clr-4242{
+    color: #424242;
+}
+
+.cs-clr-off-black{
+    color: #1f1f1f;
+}
+
+/* 
+.cs-clr-orange{
+    color: #e96828;
+} */
+
+.cs-clr-orange{
+    color: #e4692b;
+}
+
+
+.cs-clr-green{
+    color:#009378;
+}
+
+.cs-clr-brown{
+    color: #c5a77d
+}
+
+.cs-clr-dark-brown{
+    color: #bb9053
+}
+
+.cs-clr-light-purple{
+    color: #d191cfd5
+}
+
+.cs-clr-purple{
+    color: #57699b;
+}
+
+.cs-clr-mega-menu{
+    color: #009378a2;
 }

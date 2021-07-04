@@ -5,3 +5,25 @@
 .ant-menu.ant-menu-dark .ant-menu-item-selected.sidebar-menu-bg{
     background-color: #01745e8a;
 }
+
+.ant-layout-footer{
+    background-color: #00937860 !important;
+}
+
+.ant-tabs-ink-bar {
+    position: absolute;
+    background: #00937860 !important;
+    pointer-events: none;
+}
+
+.ant-tabs-tab {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 0;
+    font-size: 22px !important;
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}

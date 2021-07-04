@@ -19,7 +19,7 @@ export const AppController = ({ history, children }) => {
 
   const getMobileBuggerMenu = history => {
     return (
-      <div className="cs-only-for-mobile mobile-header">
+      <div className="mobile-header">
         <div>
           {React.createElement(
             collapsed ? AlignLeftOutlined : AlignLeftOutlined,
@@ -35,33 +35,30 @@ export const AppController = ({ history, children }) => {
     );
   };
 
-
-  const getFooter = () => {
-    return <FooterPage />;
-  };
-
   return (
     <div>
       <div className="cs-show-web">
         <Layout>
           <Layout className={"site-layout " + (collapsed ? "" : "over-hid")}>
-            <header className="app-header">
+            <Affix offsetTop={.1}>
+            <header className="app-header cs-vt-center cs-dis-flex ">
             <WebHeader history={history} />
             </header>
             <MegaMenu history={history} />
+            </Affix>
             <Content
               style={{
                 //  margin: "24px 16px",
                 //  marginLeft: 12,
                 //  marginRight: 12,
-                padding: 0,
-                height: "100%",
-                minHeight: 280
+                // padding: 0,
+                // height: "100vh",
+                // minHeight: 280
               }}
             >
               {children}
             </Content>
-            {/* {getFooter()} */}
+            <FooterPage />
           </Layout>
         </Layout>
       </div>

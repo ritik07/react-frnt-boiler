@@ -1,12 +1,17 @@
 import React from 'react'
 import { WebHeader } from '../../components/webHeader'
+import WebFooter from './footer'
 
 const WebLayouts = () => {
-    return (
-        <div>
-            <WebHeader/>
-        </div>
-    )
+  return (
+    <div>
+      <div className="cs-show-web">
+        <WebFooter />
+        
+      </div>
+    </div>
+
+  )
 }
 
 export default WebLayouts

@@ -16,17 +16,19 @@
 
 .header-item-drop {
   margin-top: -4px;
-  background-color: #e4fcee;
+  background-color: #e9682831;
   color: rgba(0, 0, 0, 0.836) !important;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .list-item{
     cursor: pointer;
-    padding: 10px 120px 10px 20px;
+    padding: 10px 40px 10px 20px;
 }
 
 .list-item:hover{
-    background-color: #aaceba;
+    background-color: #e968289c;
 }
 
 .header-content .ant-popover-open, .header-item:hover {

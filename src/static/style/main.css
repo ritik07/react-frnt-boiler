@@ -5,6 +5,7 @@
 @import './margin.css';
 @import './button.css';
 @import './antdoverright.css';
+@import './web/home.css';
 
 div{
   color: #000;
@@ -14,13 +15,21 @@ div{
   margin: 0px 35px;
 }
 
+.cs-web-container-70{
+  margin: 0px 70px;
+}
+
+.cs-web-container-110{
+  margin: 0px 110px;
+}
+
 .cs-vt-center{
   align-content:center;
   align-items: center;
 }
 
 .cs-dis-flex{
-  display: flex;
+  display: flex !important;
 }
 
 .cs-hrz-center{
@@ -28,8 +37,44 @@ div{
   justify-items: center;
 }
 
+.cs-abs-center{
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
 .cs-justify-sb{
   justify-content: space-between;
+}
+
+.cs-justify-se{
+  justify-content: space-evenly;
+}
+
+.cs-dis-block{
+  display: block;
+}
+
+.subscribe-input{
+  background-color: #00937800;
+  margin-top: 15px;
+  border-color: #009378;
+  border-radius: 6px;
+  height: 35px;
+}
+
+.subscribe-input:focus{
+  border-color: #009378;
+}
+
+.subscribe-input:hover{
+  border-color: #009378;
+}
+
+
+.subscribe-input::placeholder{
+  color: rgba(0, 0, 0, 0.637);
 }
 
 .cs-br-5{
@@ -60,6 +105,48 @@ div{
   overflow-x: scroll;
 }
 
+.cs-dis-none{
+  display: none;
+}
+
+.cs-font-italic{
+  font-style: italic;
+}
+
+.cs-vt-line{
+  border: rgba(0, 0, 0, 0.514);
+  border-style: solid;
+  border-width: 0px 2px 0px 0px;
+}
+
+.cs-w-50{
+  width: 50% !important;
+}
+
+.cs-w-60{
+  width: 60% !important;
+}
+
+.cs-w-70{
+  width: 70% !important;
+}
+
+.cs-w-80{
+  width: 80% !important;
+}
+
+.cs-w-100{
+  width: 100% !important;
+}
+
+.cs-w-40p{
+  width: 40px;
+}
+
+.cs-pos-abs{
+  position: absolute;
+}
+
 /* WEB VIEW */
 @media screen and (min-width: 768px) {
 
@@ -83,11 +170,25 @@ div{
   .cs-show-web {
     display: block;
   }
+
+  .cs-show-lg-tab {
+    display: none;
+  }
+
+  .cs-hide-lg-tab{
+    display: block;
+  }
 }
 
  /*LG */ 
 @media screen and (min-width:992px) and (max-width:1200px){
+  .cs-show-lg-tab {
+    display: block;
+  }
 
+  .cs-hide-lg-tab{
+    display: none;
+  }
 }
 
 /* MD */

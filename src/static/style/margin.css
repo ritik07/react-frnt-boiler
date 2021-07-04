@@ -34,6 +34,10 @@
     margin-top: 10px;
 }
 
+.cs-tm-15{
+    margin-top: 15px;
+}
+
 .cs-tm-20{
     margin-top: 20px;
 }
@@ -48,4 +52,28 @@
 
 .cs-bm-0{
     margin-bottom: 0px !important;
+}
+
+.cs-bm-10{
+    margin-bottom: 10px;
+}
+
+.cs-bm-15{
+    margin-bottom: 15px;
+}
+
+.cs-bm-20{
+    margin-bottom: 20px;
+}
+
+.cs-bm-25{
+    margin-bottom: 25px;
+}
+
+.cs-bm-30{
+    margin-bottom: 30px;
+}
+
+.cs-bm-60{
+    margin-bottom: 60px !important;
 }

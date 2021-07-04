@@ -3,7 +3,9 @@
 }
 
 .mega-menu-wrapper {
-  background-color: #0093788a;
+  /* background-color: #0093788a; */
+  /* background-color: #009378a2; */
+  background-color: #009378de;
   height: 40px;
 }
 
@@ -26,7 +28,7 @@
 
 
 .mega-menu-wrapper .ant-popover-open, .menu-li:hover {
-  background-color: #e4fcee;
+  background-color: #009378ce;
   color: black;
 }
 
